@@ -15,20 +15,26 @@
 
 ## Danh sách bài tập
 
-### **BT1 - Solving Knapsack Problems Using Google OR Tools**
-- **Mô tả:** Giải bài toán Knapsack bằng Google OR-Tools với các bộ test có kích thước khác nhau. Phân tích kết quả và đánh giá hiệu suất thuật toán.
+### BT1 - DFS/BFS/UCS for Sokoban
+- **Mô tả:** Cài đặt thuật toán tìm kiếm DFS, BFS và UCS để giải bài toán Sokoban. So sánh hiệu suất giữa các thuật toán này.
 
-### **BT2 - Evaluation functions for Minimax/AlphaBeta/Expectimax**
-- **Mô tả:** Cài đặt Minimax, Alpha-Beta Pruning, Expectimax và thiết kế hàm đánh giá trạng thái trong trò chơi Pacman. So sánh hiệu suất các thuật toán.
+### BT2 - Heuristics & A* Search
+- **Mô tả:** Cài đặt thuật toán A* search với các heuristic khác nhau để giải Sokoban và so sánh với UCS.
 
-### **BT3 - Value Iteration & Policy Iteration**
-- **Mô tả:** Cài đặt thuật toán Value Iteration và Policy Iteration trên môi trường OpenAI Gym. So sánh hiệu suất và tốc độ hội tụ của hai thuật toán này.
+### BT3 - Solving Knapsack Problems Using Google OR Tools
+- **Mô tả:** Sử dụng Google OR-Tools để giải bài toán Knapsack với các bộ test có kích thước khác nhau.
 
-### **BT4 - Q-Learning & SARSA**
-- **Mô tả:** Cài đặt thuật toán Q-Learning và SARSA trên các môi trường 'FrozenLake-v1', 'FrozenLake8x8-v1' và 'Taxi-v3'. So sánh hiệu suất của hai thuật toán.
+### BT4 - Evaluation Functions for Minimax/AlphaBeta/Expectimax
+- **Mô tả:** Cài đặt và đánh giá các hàm heuristic cho thuật toán Minimax, Alpha-Beta pruning và Expectimax trong game Pacman.
 
-### **BT5 - Deep Q-Networks (DQNs)**
-- **Mô tả:** Điều chỉnh hyperparameters và cải tiến mô hình DQN để giải quyết bài toán MountainCar-v0. Trình bày kết quả bằng clip minh họa.
+### BT5 - Value Iteration & Policy Iteration
+- **Mô tả:** Cài đặt thuật toán Policy Iteration và Value Iteration để giải bài toán MDP trong OpenAI Gym.
+
+### BT6 - Q-Learning & SARSA
+- **Mô tả:** Cài đặt và so sánh hiệu suất của thuật toán Q-Learning và SARSA trên các môi trường khác nhau của OpenAI Gym.
+
+### BT7 - Deep Q-Networks (DQNs)
+- **Mô tả:** Cải tiến thuật toán DQN bằng cách tuning hyperparameters hoặc thay đổi kiến trúc để giải quyết bài toán MountainCar-v0.
 
 ## **Hướng dẫn nộp bài**
 - Mỗi bài tập sẽ có file riêng theo định dạng: `BTX_MSSV.ext` (X là số bài tập, MSSV là mã số sinh viên).
